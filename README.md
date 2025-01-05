@@ -17,7 +17,7 @@ mysql -h 127.0.0.1 -P 3307 -u root -p
 CREATE DATABASE php_project;
 ```
 
-# Create the todo list table :
+# Create the todo list table
 ```
 USE php_project;
 CREATE TABLE todo_list (

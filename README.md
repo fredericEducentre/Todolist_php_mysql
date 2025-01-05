@@ -1,6 +1,6 @@
 # Require :
-php 8.3.15 installed
-mysql 9.1.0 or docker installed
+- php 8.3.15 installed
+- mysql 9.1.0 or docker installed
 
 # Install MySQL with Docker
 ```

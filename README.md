@@ -2,7 +2,7 @@
 - php 8.3.15 installed
 - mysql 9.1.0 or docker installed
 
-# Install MySQL with Docker
+# Install MySQL with Docker (optional)
 ```
 docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=root -p 3307:3306 -d mysql
 ```

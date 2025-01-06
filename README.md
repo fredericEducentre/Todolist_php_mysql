@@ -4,7 +4,7 @@
 
 # Install MySQL with Docker (optional)
 ```
-docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=root -p 3307:3306 -d mysql
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql
 ```
 
 # Start MySQL
@@ -38,4 +38,16 @@ php migration_up.php
 # To clean the database
 ```
 php migration_down.php
-```# Todolist_php_mysql
+```
+
+OR
+
+# Deploy everything with compose
+```
+docker compose up
+```
+
+# Then make the migration
+```
+docker exec -it app php migration_up.php
+```
